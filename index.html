@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ravintola Taj Mahal | Intialainen Ravintola | Joensuu</title>
+    <meta name="description" content="Ravintola Taj Mahal – aitoa intialaista ruokaa Joensuun sydämessä. Lounas, à la carte, pizza & kebab sekä kotiinkuljetus. Kirkkokatu 25b, Joensuu.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- ===== NAVIGATION ===== -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-mark">&#10058;</span>
+                <span class="logo-text">
+                    <span class="logo-title">Taj Mahal</span>
+                    <span class="logo-sub">Intialainen Ravintola</span>
+                </span>
+            </a>
+            <nav class="nav-links" id="navLinks">
+                <a href="#home">Etusivu</a>
+                <a href="#lounas">Lounas</a>
+                <a href="#alacarte">À la Carte</a>
+                <a href="#pizza">Pizza &amp; Kebab</a>
+                <a href="#kuljetus">Kuljetus</a>
+                <a href="#yhteystiedot">Yhteystiedot</a>
+                <a href="https://wolt.com" target="_blank" rel="noopener" class="nav-cta">Tilaa tästä</a>
+            </nav>
+            <button class="nav-toggle" id="navToggle" aria-label="Avaa valikko">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-eyebrow">Tervetuloa &mdash; Joensuu</p>
+            <h1 class="hero-title">Ravintola Taj&nbsp;Mahal</h1>
+            <p class="hero-tagline">Aitoa intialaista ruokaa, tarjoiltuna lämmöllä ja intohimolla</p>
+            <div class="hero-buttons">
+                <a href="#alacarte" class="btn btn-primary">Katso menu</a>
+                <a href="#kuljetus" class="btn btn-ghost">Tilaa kotiin</a>
+            </div>
+            <div class="hero-info">
+                <div class="hero-info-item">
+                    <span class="hero-info-label">Lounas</span>
+                    <span class="hero-info-value">Ma&ndash;Pe 10&ndash;16</span>
+                </div>
+                <div class="hero-info-divider"></div>
+                <div class="hero-info-item">
+                    <span class="hero-info-label">Soita</span>
+                    <span class="hero-info-value">045 140 2904</span>
+                </div>
+                <div class="hero-info-divider"></div>
+                <div class="hero-info-item">
+                    <span class="hero-info-label">Osoite</span>
+                    <span class="hero-info-value">Kirkkokatu 25b</span>
+                </div>
+            </div>
+        </div>
+        <a href="#lounas" class="scroll-cue" aria-label="Vieritä alas">
+            <span></span>
+        </a>
+    </section>
+
+    <!-- ===== INTRO / ABOUT ===== -->
+    <section class="about reveal">
+        <div class="about-inner">
+            <span class="section-ornament">&#10070;</span>
+            <h2 class="section-title">Maistuva matka Intiaan</h2>
+            <p class="about-text">
+                Taj Mahal tuo Joensuuhun aitojen intialaisten mausteiden rikkaan maailman.
+                Valmistamme ruokamme tuoreista raaka-aineista perinteisin menetelmin &ndash;
+                kermaisista curryista tandoori-uunin herkkuihin. Tarjoamme myös
+                runsaan valikoiman pizzoja ja kebabeja koko perheelle.
+            </p>
+            <div class="about-features">
+                <div class="feature">
+                    <span class="feature-icon">&#127869;</span>
+                    <h3>Aidot maut</h3>
+                    <p>Perinteisiä reseptejä ja tuoreita mausteita jokaisessa annoksessa.</p>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">&#128666;</span>
+                    <h3>Kotiinkuljetus</h3>
+                    <p>Ilmainen kuljetus 5 km säteellä. Tilaa Woltista tai puhelimitse.</p>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">&#127869;&#65039;</span>
+                    <h3>Edullinen lounas</h3>
+                    <p>Päivittäin vaihtuva lounasbuffet vain 13,50&nbsp;&euro;.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== LOUNAS ===== -->
+    <section class="lounas reveal" id="lounas">
+        <div class="lounas-inner">
+            <div class="lounas-text">
+                <span class="section-ornament">&#10070;</span>
+                <h2 class="section-title">Lounas</h2>
+                <p class="lounas-lead">
+                    Nauti runsaasta intialaisesta lounaasta arkisin.
+                    Tarjoamme päivittäin vaihtuvan valikoiman maukkaita ruokia.
+                </p>
+                <ul class="lounas-details">
+                    <li><strong>Lounasaika:</strong> Ma&ndash;Pe klo 10.00&ndash;16.00</li>
+                    <li><strong>Hinta:</strong> 13,50&nbsp;&euro;</li>
+                    <li><strong>Lapsille:</strong> 1&nbsp;&euro; / ikävuosi</li>
+                    <li><strong>Maksutavat:</strong> ePassi, Edenred, Smartum, käteinen ja kortti</li>
+                </ul>
+                <a href="https://www.lounaat.info/" target="_blank" rel="noopener" class="btn btn-primary">Katso päivän lista</a>
+            </div>
+            <div class="lounas-card">
+                <span class="lounas-card-eyebrow">Päivän lounas</span>
+                <span class="lounas-card-price">13,50&euro;</span>
+                <p class="lounas-card-note">Sisältää pääruoan, riisin ja lisukkeet</p>
+                <div class="lounas-card-line"></div>
+                <p class="lounas-card-foot">Ma&ndash;Pe &nbsp;10.00&ndash;16.00</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== À LA CARTE ===== -->
+    <section class="menu reveal" id="alacarte">
+        <div class="menu-header">
+            <span class="section-ornament">&#10070;</span>
+            <h2 class="section-title">À la Carte</h2>
+            <p class="section-subtitle">Herkullisia intialaisia ruokia &mdash; jokaisessa pääruoassa riisi</p>
+        </div>
+
+        <div class="menu-filters" id="menuFilters">
+            <button class="filter-btn active" data-filter="all">Kaikki</button>
+            <button class="filter-btn" data-filter="alkupalat">Alkupalat</button>
+            <button class="filter-btn" data-filter="kana">Kana</button>
+            <button class="filter-btn" data-filter="liha">Nauta &amp; Lammas</button>
+            <button class="filter-btn" data-filter="kala">Kala &amp; Katkarapu</button>
+            <button class="filter-btn" data-filter="kasvis">Kasvis</button>
+            <button class="filter-btn" data-filter="erikois">Erikois</button>
+            <button class="filter-btn" data-filter="riisi">Riisi &amp; Leivät</button>
+            <button class="filter-btn" data-filter="jalkiruoat">Jälkiruoat &amp; Juomat</button>
+        </div>
+
+        <div class="menu-grid" id="menuGrid">
+            <!-- ALKUPALAT -->
+            <div class="menu-group" data-category="alkupalat">
+                <h3 class="menu-group-title">Alkupalat</h3>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Samosa <em class="tags">L</em></span><span class="dots"></span><span class="price">5,20&euro;</span></div><p class="desc">Jauheliha- tai kasvispasteija (2 kpl)</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Pakura <em class="tags">L</em></span><span class="dots"></span><span class="price">5,50&euro;</span></div><p class="desc">Papujauhoilla kuorrutettua ja tiristettyä kanaa</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Puree (Prawn/Aloo/Dal) <em class="tags">L</em></span><span class="dots"></span><span class="price">5,20&euro;</span></div><p class="desc">Paistettua prawn, aloo tai dal leivän päällä (2 kpl)</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Papadam <em class="tags">L, G</em></span><span class="dots"></span><span class="price">2,50&euro;</span></div><p class="desc">Papadam-leipä (2 kpl)</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Singara <em class="tags">L</em></span><span class="dots"></span><span class="price">5,20&euro;</span></div><p class="desc">Paistettuja erilaisia vihanneksia leivän sisällä (2 kpl)</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Kebab (Chicken/Beef/Tuna) <em class="tags">L</em></span><span class="dots"></span><span class="price">6,50&euro;</span></div><p class="desc">Paistettua tikka-kanaa, naudanlihaa tai tonnikalaa (2 kpl)</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Beguni <em class="tags">L</em></span><span class="dots"></span><span class="price">5,50&euro;</span></div><p class="desc">Papujauhoilla paistettu munakoiso (4 kpl)</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Vegetable Roll <em class="tags">L</em></span><span class="dots"></span><span class="price">5,20&euro;</span></div><p class="desc">Paistettuja erilaisia vihanneksia leipärullassa (4 kpl)</p></div>
+            </div>
+
+            <!-- KANA -->
+            <div class="menu-group" data-category="kana">
+                <h3 class="menu-group-title">Kanaruoat</h3>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Chicken Curry <em class="tags">L, G</em></span><span class="dots"></span><span class="price">16,20&euro;</span></div><p class="desc">Kanaa kerma-currykastikkeessa</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Butter Chicken <em class="tags">L, G</em></span><span class="dots"></span><span class="price">16,20&euro;</span></div><p class="desc">Kanaa mausteisessa voikastikkeessa</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Chicken Korma <em class="tags">L, G</em></span><span class="dots"></span><span class="price">16,20&euro;</span></div><p class="desc">Kanaa maustetussa jogurttikastikkeessa</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Chicken Tikka Masala <em class="tags">L, G</em></span><span class="dots"></span><span class="price">17,20&euro;</span></div><p class="desc">Marinoitua kanaa masala-kastikkeessa</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Chicken Tandoori <em class="tags">L, G</em></span><span class="dots"></span><span class="price">17,20&euro;</span></div><p class="desc">Tandoori-uunissa paistettua kanaa</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Chili Chicken <em class="tags spicy">L, G &#128293;</em></span><span class="dots"></span><span class="price">16,20&euro;</span></div><p class="desc">Erittäin tulista kanaa maustetussa kastikkeessa</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Chicken Vindaloo <em class="tags spicy">L, G &#128293;</em></span><span class="dots"></span><span class="price">16,20&euro;</span></div><p class="desc">Tulisesti maustettua kanaa vindaloo-kastikkeessa</p></div>
+            </div>
+
+            <!-- NAUTA & LAMMAS -->
+            <div class="menu-group" data-category="liha">
+                <h3 class="menu-group-title">Nauta &amp; Lammas</h3>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Butter Beef</span><span class="dots"></span><span class="price">16,20&euro;</span></div><p class="desc">Naudanlihaa voikastikkeessa</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Beef Handi</span><span class="dots"></span><span class="price">16,20&euro;</span></div><p class="desc">Naudanlihaa maustetussa kermakastikkeessa</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Beef Vindaloo <em class="tags spicy">&#128293;</em></span><span class="dots"></span><span class="price">16,20&euro;</span></div><p class="desc">Tulisesti maustettua naudanlihaa chilikastikkeessa</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Mutton Mint Masala</span><span class="dots"></span><span class="price">17,50&euro;</span></div><p class="desc">Lammasta mausteisessa minttukastikkeessa</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Mutton Korma</span><span class="dots"></span><span class="price">17,50&euro;</span></div><p class="desc">Lammasta jogurtti-kermakastikkeessa</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Mutton Tikka Masala</span><span class="dots"></span><span class="price">17,50&euro;</span></div><p class="desc">Marinoitua lammasta masala-kastikkeessa</p></div>
+            </div>
+
+            <!-- KALA & KATKARAPU -->
+            <div class="menu-group" data-category="kala">
+                <h3 class="menu-group-title">Kala &amp; Katkarapu</h3>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Fish Curry</span><span class="dots"></span><span class="price">17,20&euro;</span></div><p class="desc">Lohta kookos-currykastikkeessa</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Butter Fish</span><span class="dots"></span><span class="price">17,20&euro;</span></div><p class="desc">Lohta voikastikkeessa</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Prawn Curry</span><span class="dots"></span><span class="price">17,90&euro;</span></div><p class="desc">Korallikatkarapuja kookosmaitokastikkeessa</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Garlic Prawn</span><span class="dots"></span><span class="price">17,90&euro;</span></div><p class="desc">Korallikatkarapuja valkosipulikastikkeessa</p></div>
+            </div>
+
+            <!-- KASVIS -->
+            <div class="menu-group" data-category="kasvis">
+                <h3 class="menu-group-title">Kasvisruoat</h3>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Palak Paneer</span><span class="dots"></span><span class="price">15,00&euro;</span></div><p class="desc">Pinaattia ja tuorejuustoa maustekastikkeessa</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Mushroom Jalfrezi <em class="tags spicy">&#128293;</em></span><span class="dots"></span><span class="price">15,00&euro;</span></div><p class="desc">Tulisesti maustettuja herkkusieniä paprika-sipulimuhennoksen kera</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Malai Kofta</span><span class="dots"></span><span class="price">15,00&euro;</span></div><p class="desc">Tiristettyjä ja soseutettuja vihannespullia kerma-currykastikkeessa</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Baigan Korma</span><span class="dots"></span><span class="price">15,00&euro;</span></div><p class="desc">Paistettua munakoisoa maustetussa jogurttikastikkeessa</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Vihannessekoitus</span><span class="dots"></span><span class="price">15,00&euro;</span></div><p class="desc">Erilaisia vihanneksia maustekastikkeessa</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Butter Dal</span><span class="dots"></span><span class="price">14,00&euro;</span></div><p class="desc">Yrteillä maustettuja linssejä voi-sipulikastikkeessa</p></div>
+            </div>
+
+            <!-- ERIKOIS -->
+            <div class="menu-group" data-category="erikois">
+                <h3 class="menu-group-title">Erikoisannokset</h3>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Meat Thali</span><span class="dots"></span><span class="price">22,50&euro;</span></div><p class="desc">Kolme liharuokaa, naan ja raita</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Vegetable Thali</span><span class="dots"></span><span class="price">20,50&euro;</span></div><p class="desc">Kolme kasvisruokaa, naan ja raita</p></div>
+                <div class="menu-item featured"><div class="menu-item-head"><span class="dish">Taj Mahal Chef Special</span><span class="dots"></span><span class="price">25,50&euro;</span></div><p class="desc">Uunissa kypsennettyä kanaa, tandoorilammasta ja katkarapuja sipulin ja paprikan kera, naan ja raita</p></div>
+            </div>
+
+            <!-- RIISI & LEIVÄT -->
+            <div class="menu-group" data-category="riisi">
+                <h3 class="menu-group-title">Riisit &amp; Leivät</h3>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Tavallinen riisi</span><span class="dots"></span><span class="price">4,00&euro;</span></div><p class="desc">Basmati-riisiä</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Lemon-riisi</span><span class="dots"></span><span class="price">4,50&euro;</span></div><p class="desc">Basmati-riisiä ja sitruunaa</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Sieniriisi</span><span class="dots"></span><span class="price">5,00&euro;</span></div><p class="desc">Basmati-riisiä ja sieniä</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Paistettu riisi</span><span class="dots"></span><span class="price">6,50&euro;</span></div><p class="desc">Basmati-riisiä, herneitä ja kananmunaa</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Naan</span><span class="dots"></span><span class="price">2,50&euro;</span></div><p class="desc">Paistettua vehnäleipää</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Garlic Naan</span><span class="dots"></span><span class="price">3,00&euro;</span></div><p class="desc">Paistettua valkosipulivehnäleipää</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Juusto Naan</span><span class="dots"></span><span class="price">3,00&euro;</span></div><p class="desc">Paistettua juustovehnäleipää</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Peshwari Naan</span><span class="dots"></span><span class="price">3,50&euro;</span></div><p class="desc">Paistettua pähkinä- ja rusinavehnäleipää</p></div>
+            </div>
+
+            <!-- JÄLKIRUOAT & JUOMAT -->
+            <div class="menu-group" data-category="jalkiruoat">
+                <h3 class="menu-group-title">Jälkiruoat &amp; Juomat</h3>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Raita</span><span class="dots"></span><span class="price">3,00&euro;</span></div><p class="desc">Kevyesti maustetusta jogurtista</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Chutney</span><span class="dots"></span><span class="price">2,00&euro;</span></div><p class="desc">Makea mango-chutney</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Jäätelö</span><span class="dots"></span><span class="price">4,50&euro;</span></div><p class="desc">Erilaisia jäätelövaihtoehtoja kastikkeella</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Pähkinälassi</span><span class="dots"></span><span class="price">4,00&euro;</span></div><p class="desc">Jogurtti, pähkinä, sokeri, suola</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Mangolassi</span><span class="dots"></span><span class="price">4,00&euro;</span></div><p class="desc">Intialainen jogurttijuoma, sisältää hedelmälihaa</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Lemonade</span><span class="dots"></span><span class="price">3,50&euro;</span></div><p class="desc">Lime, sokeri, suola</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Virvoitusjuomat</span><span class="dots"></span><span class="price">2,50&euro;&ndash;</span></div><p class="desc">Coca-Cola / Fanta / 7up / Muumi (0,33 l / 0,5 l / 1,5 l)</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Tee / Kahvi</span><span class="dots"></span><span class="price">2,00&euro;</span></div><p class="desc">Kuuma juoma aterian päätteeksi</p></div>
+            </div>
+        </div>
+        <p class="menu-legend">L = Laktoositon &nbsp;&bull;&nbsp; G = Gluteeniton &nbsp;&bull;&nbsp; Vg = Vegaaninen &nbsp;&bull;&nbsp; &#128293; = Tulinen</p>
+    </section>
+
+    <!-- ===== PIZZA & KEBAB ===== -->
+    <section class="pizza reveal" id="pizza">
+        <div class="menu-header">
+            <span class="section-ornament">&#10070;</span>
+            <h2 class="section-title">Pizza &amp; Kebab</h2>
+            <p class="section-subtitle">Klassikot koko perheelle</p>
+        </div>
+        <div class="pizza-grid">
+            <div class="menu-group">
+                <h3 class="menu-group-title">Kebab-ruoat</h3>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Rullakebab</span><span class="dots"></span><span class="price">10,50&euro;</span></div><p class="desc">Kebab rullattuna leivän sisällä</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Kebab riisillä</span><span class="dots"></span><span class="price">12,00&euro;</span></div><p class="desc">Kebabia ja riisiä</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Kebab ranskalaisilla</span><span class="dots"></span><span class="price">12,00&euro;</span></div><p class="desc">Kebabia ja ranskalaisia</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Kebab pitaleivällä</span><span class="dots"></span><span class="price">12,00&euro;</span></div><p class="desc">Kebab pitaleivällä</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Kebab-annos</span><span class="dots"></span><span class="price">11,50&euro;</span></div><p class="desc">Kebab-annos</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Iskender Kebab</span><span class="dots"></span><span class="price">13,50&euro;</span></div><p class="desc">Iskender kebab</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Kanakastike Kebab</span><span class="dots"></span><span class="price">13,50&euro;</span></div><p class="desc">Kebab kanakastikkeella</p></div>
+            </div>
+            <div class="menu-group">
+                <h3 class="menu-group-title">Pizzat</h3>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Margherita</span><span class="dots"></span><span class="price">9,00&euro;</span></div><p class="desc">Tomaatti, juusto</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Salami</span><span class="dots"></span><span class="price">10,00&euro;</span></div><p class="desc">Salami, tomaatti, juusto</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Pepperoni</span><span class="dots"></span><span class="price">10,00&euro;</span></div><p class="desc">Pepperoni, tomaatti, juusto</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Vegetariana</span><span class="dots"></span><span class="price">11,00&euro;</span></div><p class="desc">Kasviksia, tomaatti, juusto</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Tonnikala</span><span class="dots"></span><span class="price">11,00&euro;</span></div><p class="desc">Tonnikala, tomaatti, juusto</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Hawaii</span><span class="dots"></span><span class="price">11,50&euro;</span></div><p class="desc">Kinkku, ananas, tomaatti, juusto</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Quattro Stagioni</span><span class="dots"></span><span class="price">12,00&euro;</span></div><p class="desc">Kinkku, salami, tonnikala, tomaatti, juusto</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Meat Lover's</span><span class="dots"></span><span class="price">12,50&euro;</span></div><p class="desc">Kinkku, salami, pepperoni, kebab, tomaatti, juusto</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Kebab Pizza</span><span class="dots"></span><span class="price">12,50&euro;</span></div><p class="desc">Kebab, tomaatti, juusto</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Chef's Special</span><span class="dots"></span><span class="price">13,00&euro;</span></div><p class="desc">Chefin erikoispizza</p></div>
+            </div>
+            <div class="menu-group">
+                <h3 class="menu-group-title">Lisukkeet</h3>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Ranskalaiset</span><span class="dots"></span><span class="price">3,50&euro;</span></div><p class="desc">Paistetut perunat</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Nugetit</span><span class="dots"></span><span class="price">5,00&euro;</span></div><p class="desc">Kananugetit (5 kpl)</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Sipulirenkaat</span><span class="dots"></span><span class="price">4,00&euro;</span></div><p class="desc">Paistetut sipulirenkaat</p></div>
+                <div class="menu-item"><div class="menu-item-head"><span class="dish">Mozzarella-tikut</span><span class="dots"></span><span class="price">5,50&euro;</span></div><p class="desc">Paistetut mozzarella-tikut (5 kpl)</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== KULJETUS ===== -->
+    <section class="delivery reveal" id="kuljetus">
+        <div class="delivery-inner">
+            <div class="delivery-text">
+                <span class="section-ornament">&#10070;</span>
+                <h2 class="section-title">Kotiinkuljetus</h2>
+                <p class="delivery-lead">
+                    Nauti suosikkiruokasi kotona! Tilaa Woltista tai suoraan meiltä puhelimitse.
+                </p>
+                <ul class="delivery-details">
+                    <li><span class="dl-ic">&#128337;</span> Kuljetusaika: klo 12.00&ndash;20.00</li>
+                    <li><span class="dl-ic">&#128666;</span> Ilmainen kuljetus 5 km säteellä</li>
+                    <li><span class="dl-ic">&#128176;</span> 1&nbsp;&euro; / km yli 5 km</li>
+                    <li><span class="dl-ic">&#128221;</span> Vähimmäistilaus: 2 annosta</li>
+                </ul>
+                <div class="delivery-buttons">
+                    <a href="https://wolt.com" target="_blank" rel="noopener" class="btn btn-primary">Tilaa Woltista</a>
+                    <a href="tel:+358451402904" class="btn btn-ghost">Soita 045 140 2904</a>
+                </div>
+            </div>
+            <div class="delivery-card">
+                <span class="delivery-card-icon">&#128666;</span>
+                <h3>Oma kuljetus</h3>
+                <p>Toimitamme tilauksesi nopeasti ja tuoreena suoraan ovellesi Joensuun alueella.</p>
+                <span class="delivery-card-tag">Ilmainen 5 km saakka</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== YHTEYSTIEDOT ===== -->
+    <section class="contact reveal" id="yhteystiedot">
+        <div class="menu-header">
+            <span class="section-ornament">&#10070;</span>
+            <h2 class="section-title">Yhteystiedot</h2>
+            <p class="section-subtitle">Tervetuloa nauttimaan &mdash; löydät meidät Joensuun keskustasta</p>
+        </div>
+        <div class="contact-grid">
+            <div class="contact-card">
+                <h3>Sijainti &amp; yhteys</h3>
+                <ul class="contact-list">
+                    <li><span class="ci">&#128205;</span><div><strong>Osoite</strong><a href="https://maps.google.com/?q=Ravintola+Taj+Mahal+Kirkkokatu+25b+Joensuu" target="_blank" rel="noopener">Kirkkokatu 25b, 80100 Joensuu</a></div></li>
+                    <li><span class="ci">&#128222;</span><div><strong>Puhelin</strong><a href="tel:+358451402904">045 140 2904</a></div></li>
+                    <li><span class="ci">&#9993;</span><div><strong>Sähköposti</strong><a href="mailto:tajmahaljoensuu@gmail.com">tajmahaljoensuu@gmail.com</a></div></li>
+                </ul>
+            </div>
+            <div class="contact-card">
+                <h3>Aukioloajat</h3>
+                <ul class="hours-list">
+                    <li><span>Maanantai</span><span>11.00&ndash;21.00</span></li>
+                    <li><span>Tiistai</span><span>11.00&ndash;20.30</span></li>
+                    <li><span>Keskiviikko</span><span>11.00&ndash;21.00</span></li>
+                    <li><span>Torstai</span><span>11.00&ndash;21.00</span></li>
+                    <li><span>Perjantai</span><span>11.00&ndash;21.00</span></li>
+                    <li><span>Lauantai</span><span>12.00&ndash;21.00</span></li>
+                    <li><span>Sunnuntai</span><span>12.00&ndash;21.00</span></li>
+                </ul>
+            </div>
+            <div class="contact-card map-card">
+                <iframe
+                    title="Ravintola Taj Mahal sijainti kartalla"
+                    src="https://www.google.com/maps?q=Kirkkokatu%2025b,%2080100%20Joensuu&output=embed"
+                    loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <span class="logo-mark">&#10058;</span>
+                <span class="logo-title">Taj Mahal</span>
+                <p>Aitoa intialaista ruokaa Joensuun sydämessä.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Valikko</h4>
+                <a href="#lounas">Lounas</a>
+                <a href="#alacarte">À la Carte</a>
+                <a href="#pizza">Pizza &amp; Kebab</a>
+                <a href="#kuljetus">Kuljetus</a>
+            </div>
+            <div class="footer-col">
+                <h4>Yhteys</h4>
+                <a href="tel:+358451402904">045 140 2904</a>
+                <a href="mailto:tajmahaljoensuu@gmail.com">tajmahaljoensuu@gmail.com</a>
+                <a href="https://maps.google.com/?q=Kirkkokatu+25b+Joensuu" target="_blank" rel="noopener">Kirkkokatu 25b, Joensuu</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> Ravintola Taj Mahal &middot; Joensuu. Kaikki oikeudet pidätetään.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
